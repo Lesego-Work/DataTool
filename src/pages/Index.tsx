@@ -55,7 +55,11 @@ const Index = () => {
     try {
       await emailjs.send(
         'service_hk1kj74', // replace with your EmailJS service ID
+<<<<<<< HEAD
         'template_cahg9hq', // replace with your EmailJS template ID
+=======
+        'template_cahg9hq'', // replace with your EmailJS template ID
+>>>>>>> 4068c28c5f0421b9c3ed7aa24e14a4d9a31d5e82
         {
           name: formData.name,
           email: formData.email,
